@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MorgageCalculator {
+public class morgageCalculator {
 
 	/* SELF ASSESSMENT
 
