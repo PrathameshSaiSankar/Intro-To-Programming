@@ -39,31 +39,31 @@ public class DisposableIncome {
 		  //Outputs
 		  if (disposableIncome >= MUCH_MORE_THAN_AVERAGE_DISPOSABLE_INCOME)
 		  {
-			  JOptionPane.showMessageDialog(null, "Your disposable income is €" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. You have 50% more than the average disposable income per month.");
+			  JOptionPane.showMessageDialog(null, "Your disposable income is â‚¬" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. You have 50% more than the average disposable income per month.");
 		  }
 		  else if (disposableIncome > AVERAGE_DISPOSABLE_INCOME)
 		  {
-			  JOptionPane.showMessageDialog(null, "Your disposable income is €" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. You have more than the average disposable income per month.");
+			  JOptionPane.showMessageDialog(null, "Your disposable income is â‚¬" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. You have more than the average disposable income per month.");
 		  }
 		  else if (disposableIncome == AVERAGE_DISPOSABLE_INCOME)
 		  {
-			  JOptionPane.showMessageDialog(null, "Your disposable income is €" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. You have the exact average disposable income per month.");
+			  JOptionPane.showMessageDialog(null, "Your disposable income is â‚¬" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. You have the exact average disposable income per month.");
 		  }
 		  else if (disposableIncome < AVERAGE_DISPOSABLE_INCOME && disposableIncome == 0)
 		  {
-			  JOptionPane.showMessageDialog(null, "Your disposable income is €" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. You have no disposable income.");
+			  JOptionPane.showMessageDialog(null, "Your disposable income is â‚¬" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. You have no disposable income.");
 		  }
 		  else if (disposableIncome < AVERAGE_DISPOSABLE_INCOME && disposableIncome > MUCH_LESS_THAN_AVERAGE_DISPOSABLE_INCOME) 
 		  {
-			  JOptionPane.showMessageDialog(null, "Your disposable income is €" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. You have less than the average disposable income per month.");
+			  JOptionPane.showMessageDialog(null, "Your disposable income is â‚¬" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. You have less than the average disposable income per month.");
 		  }
 		  else if (disposableIncome <= MUCH_LESS_THAN_AVERAGE_DISPOSABLE_INCOME && disposableIncome > 0)
 		  {
-			  JOptionPane.showMessageDialog(null, "Your disposable income is €" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. You have 50% less than the average disposable income per month.");
+			  JOptionPane.showMessageDialog(null, "Your disposable income is â‚¬" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. You have 50% less than the average disposable income per month.");
 		  }
 		  else if (disposableIncome < 0.0)
 		  {
-			  JOptionPane.showMessageDialog(null, "Your disposable income is €" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. Your expenses are higher than your net income");
+			  JOptionPane.showMessageDialog(null, "Your disposable income is â‚¬" + disposableIncome + ", which is " + percentageOfDisposableIncome + "% of your salary. Your expenses are higher than your net income");
 		  }
 	  }
  }                            
