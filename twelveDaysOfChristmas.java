@@ -1,5 +1,5 @@
 
-public class twelveExtended {
+public class twelveDaysOfChristmas {
 	/* SELF ASSESSMENT
 	 1. Did I use easy-to-understand meaningful properly formatted, variable names and CONSTANTS?
 	        Mark out of 10: 10
